@@ -108,7 +108,10 @@ h3,
   margin-bottom: 15px;
   line-height: 22px;
   border-bottom: 2px solid #eee;
+  
 }
+
+
 .social {
   width: 62px;
   height: 62px;
@@ -199,4 +202,46 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:769px ) and (min-height: 362px)
+{
+  .sidebar{
+    
+    max-width:none;
+    width:100%;
+  
+  }
+}
+@media (max-width: 640px){
+  #masthead{
+    position:static;
+    width:100%;
+                          }
+            }
+
+
+@media (max-width:361px)
+{
+  nav{
+    float:left;
+    width:100%;
+  }
+ #logo{
+  width:100%;
+ }
+ #sidebar{
+  float:left;
+  margin:50px;
+  padding:10px;
+ }
 }
